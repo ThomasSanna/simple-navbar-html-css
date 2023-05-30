@@ -2,7 +2,7 @@
 
 ## NavBar HTML + CSS
 Ce projet est une démonstration de l'utilisation de flexbox et d'animation d'after pour créer une barre de navigation en utilisant simplement HTML et CSS.
-
+ 
 ## Prérequis
 Aucun prérequis n'est nécessaire pour exécuter ce projet.
 
