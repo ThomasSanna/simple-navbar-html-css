@@ -19,9 +19,11 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations
 ## Auteur
 Sanna (WadeeKT) Thomas
 
-# N'hésitez pas à ajouter ou supprimer des sections selon vos besoins.
+### N'hésitez pas à ajouter ou supprimer des sections selon vos besoins.
+
 
 # English Version 🇬🇧
+
 ## NavBar HTML + CSS
 This project is a demonstration of using flexbox and after animation to create a navigation bar using just HTML and CSS.
 
@@ -41,4 +43,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 ## Author
 Sanna (WadeeKT) Thomas
 
-# Feel free to add or remove sections as per your requirements.
+### Feel free to add or remove sections as per your requirements.
