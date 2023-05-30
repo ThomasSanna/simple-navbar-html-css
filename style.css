@@ -1,0 +1,154 @@
+body *{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #f1f1f1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #111111;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    padding: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b0b0b;
+    padding: 20px;
+    text-align: center;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.gauche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.droite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    min-width: 450px;
+    height: 60px;
+}
+
+.search-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 60px;
+}
+
+.input-text{
+    width: 200px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    margin-right: 1px;
+    padding: 5px;
+    background-color: rgb(46, 46, 46);
+    color: #f1f1f1;
+}
+
+.input-text:focus{
+    outline: none;
+    background-color: #414141;
+}
+
+.search-button:hover{
+    background-color: #414141;
+}
+
+.search-button{
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(46, 46, 46);
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.search-loop{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.li-button{
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    transition: width .3s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.li-button::after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    background-color: rgb(241, 241, 241);
+    transition: width .1s ease-in-out;
+    width: 65%;
+    animation: underline-to-right .1s ease-in-out forwards;
+}
+
+.li-button:hover::after{
+    animation: underline-max .1s ease-in-out forwards;
+    transition: width .1s ease-in-out;
+}
+
+img{
+    filter: invert(.85);
+    height: 50px;
+    object-fit: cover;
+}
+
+.disney-img{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+@keyframes underline-to-right{
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes underline-max{
+    0%{
+        width: 70%;
+    }
+    100%{
+        width: 100%;
+    }
+}
