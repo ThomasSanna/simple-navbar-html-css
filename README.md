@@ -13,9 +13,6 @@ Ouvrez le fichier index.html dans votre navigateur.
 ## Utilisation
 Le projet est une simple page web avec une barre de recherche non fonctionnelle.
 
-## Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
-
 ## Auteur
 Sanna (WadeeKT) Thomas
 
@@ -36,9 +33,6 @@ Open the index.html file in your browser.
 
 ## Usage
 The project is a simple web page with a non-functional search bar.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Author
 Sanna (WadeeKT) Thomas
